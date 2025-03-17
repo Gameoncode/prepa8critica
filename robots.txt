@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Sitemap: https://prepa8critica.com/sitemap.xml
+
+# Permitir indexación completa
+Allow: /index.html
+Allow: /criticas
+Allow: /quejas
+Allow: /opiniones
+
+# Bloquear archivos y directorios específicos
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /.git/
+
+# Reglas específicas para bots principales
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1 
