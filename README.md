@@ -1,5 +1,7 @@
 # PREPA 8 CRITICA
 
+> 🔗 **[VER LA PÁGINA WEB AQUÍ](https://gameoncode.github.io/prepa8critica/)**
+
 Sitio web dedicado a recopilar y mostrar críticas, quejas y experiencias negativas sobre la Preparatoria 8 de la Universidad Autónoma de Nuevo León (UANL).
 
 ## Propósito
