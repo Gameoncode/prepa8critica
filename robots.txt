@@ -1,12 +1,13 @@
 User-agent: *
 Allow: /
-Sitemap: https://prepa8critica.com/sitemap.xml
+Sitemap: https://gameoncode.github.io/prepa8critica/sitemap.xml
 
-# Permitir indexación completa
+# Permitir indexación principal
 Allow: /index.html
 Allow: /criticas
 Allow: /quejas
-Allow: /opiniones
+Allow: /problemas
+Allow: /testimonios
 
 # Bloquear archivos y directorios específicos
 Disallow: /cgi-bin/
@@ -14,15 +15,23 @@ Disallow: /tmp/
 Disallow: /admin/
 Disallow: /.git/
 
-# Reglas específicas para bots principales
+# Instrucciones específicas para Google
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
 
+# Instrucciones para Bing
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
 
-User-agent: Yandex
-Allow: /
-Crawl-delay: 1 
+# Instrucciones para imágenes
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.gif$
+
+# Mejorar el rastreo
+User-agent: AdsBot-Google
+Allow: / 

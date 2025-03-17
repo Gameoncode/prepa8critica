@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
     <url>
-        <loc>https://prepa8critica.com/</loc>
+        <loc>https://gameoncode.github.io/prepa8critica/</loc>
         <lastmod>2024-03-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -16,29 +20,34 @@
             <news:publication_date>2024-03-20</news:publication_date>
             <news:title>Críticas y Quejas de la Preparatoria 8 UANL</news:title>
         </news:news>
+        <mobile:mobile/>
     </url>
+
     <url>
-        <loc>https://prepa8critica.com/#criticas</loc>
+        <loc>https://gameoncode.github.io/prepa8critica/#problemas</loc>
         <lastmod>2024-03-20</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
+
     <url>
-        <loc>https://prepa8critica.com/#quejas</loc>
+        <loc>https://gameoncode.github.io/prepa8critica/#quejas</loc>
         <lastmod>2024-03-20</lastmod>
-        <changefreq>daily</changefreq>
+        <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
+
     <url>
-        <loc>https://prepa8critica.com/#testimonios</loc>
+        <loc>https://gameoncode.github.io/prepa8critica/#criticas</loc>
         <lastmod>2024-03-20</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
     </url>
+
     <url>
-        <loc>https://prepa8critica.com/#compartir</loc>
+        <loc>https://gameoncode.github.io/prepa8critica/#testimonios</loc>
         <lastmod>2024-03-20</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
     </url>
 </urlset> 
