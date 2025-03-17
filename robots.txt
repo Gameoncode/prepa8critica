@@ -1,13 +1,14 @@
 User-agent: *
 Allow: /
-Sitemap: https://gameoncode.github.io/prepa8critica/sitemap.xml
 
 # Permitir indexación principal
 Allow: /index.html
 Allow: /criticas
 Allow: /quejas
 Allow: /problemas
-Allow: /testimonios
+
+# Sitemap
+Sitemap: https://gameoncode.github.io/prepa8critica/sitemap.xml
 
 # Bloquear archivos y directorios específicos
 Disallow: /cgi-bin/
